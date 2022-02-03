@@ -207,14 +207,11 @@ select > option {
   transform: translateY(-50%);
 }
 
-/* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
-
   .player {
-    max-width: 95vw;
     min-width: 0;
+    max-width: 95vw;
   }
-
 
   .fas {
     font-size: 20px;
